@@ -237,7 +237,7 @@ public class VersionControl {
 		rowanButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				classMethods.rowanMethod(textField);
+				classMethods.rowanMethod(textField); 
 			}
 		});
 		rowanButton.setFont(new Font("Tahoma", Font.BOLD, 11));

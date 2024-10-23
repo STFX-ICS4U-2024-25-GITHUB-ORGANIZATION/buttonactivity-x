@@ -27,7 +27,7 @@ public class Methods {
 	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
 	// PARAMETERS - JTextField jtf
 	// RETURN TYPE - void
-	public static void rowanMethod(JTextField jtf)  {
+	public static void rowanMethod(JTextField jtf)  { 
 			
 		String hardCodedMessage = "i paused my game to write this";
 		jtf.setText(hardCodedMessage);
