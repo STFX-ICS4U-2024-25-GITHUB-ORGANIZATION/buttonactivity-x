@@ -24,7 +24,10 @@ public class Methods {
 		jtf.setText(hardCodedMessage);
 	}
 	
-	
-	
+	public static void hadiMethod(JTextField jtf)  {
+		
+		String hardCodedMessage = "neverlose.cc mogs";
+		jtf.setText(hardCodedMessage);
+	}
 	
 }

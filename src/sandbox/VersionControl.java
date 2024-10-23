@@ -226,7 +226,7 @@ public class VersionControl {
 		hadiButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				// classMethods.<student>Method(textField);
+				classMethods.hadiMethod(textField);
 			}
 		});
 		hadiButton.setFont(new Font("Tahoma", Font.BOLD, 11));
