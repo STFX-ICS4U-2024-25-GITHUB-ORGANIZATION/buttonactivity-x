@@ -160,7 +160,7 @@ public class VersionControl {
 		cameronButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				// classMethods.<student>Method(textField);
+				classMethods.CameronMethod(textField);
 			}
 		});
 		cameronButton.setFont(new Font("Tahoma", Font.BOLD, 11));
