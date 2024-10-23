@@ -27,4 +27,16 @@ public class Methods {
 	
 	
 	
+	
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+	// PARAMETERS - JTextField jtf
+	// RETURN TYPE - void
+	public static void marianMethod(JTextField jtf)  {
+		
+		String hardCodedMessage = "Marian message.";
+		jtf.setText(hardCodedMessage);
+	}
+	
+	
+	
 }

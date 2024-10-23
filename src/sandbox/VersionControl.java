@@ -94,7 +94,8 @@ public class VersionControl {
 		marianButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				// classMethods.<student>Method(textField);
+				 classMethods.marianMethod(textField);
+				
 			}
 		});
 		marianButton.setFont(new Font("Tahoma", Font.BOLD, 11));
