@@ -24,7 +24,13 @@ public class Methods {
 		jtf.setText(hardCodedMessage);
 	}
 	
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+	// PARAMETERS - JTextField jtf
+	// RETURN TYPE - void
+	public static void LiamMethod(JTextField jtf)  {
+		
+		String hardCodedMessage = "Udai stop looking at me whith those eyes!";
+		jtf.setText(hardCodedMessage);
 	
-	
-	
+	}
 }

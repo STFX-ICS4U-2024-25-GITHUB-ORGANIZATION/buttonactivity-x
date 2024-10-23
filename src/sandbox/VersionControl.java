@@ -138,7 +138,7 @@ public class VersionControl {
 		liamButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				// classMethods.<student>Method(textField);
+			classMethods.LiamMethod(textField);
 			}
 		});
 		liamButton.setFont(new Font("Tahoma", Font.BOLD, 11));
@@ -149,7 +149,7 @@ public class VersionControl {
 		davidButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				// classMethods.<student>Method(textField);
+			 //classMethods.<student>Method(textField);
 			}
 		});
 		davidButton.setFont(new Font("Tahoma", Font.BOLD, 11));
