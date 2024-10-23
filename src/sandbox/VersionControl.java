@@ -270,7 +270,7 @@ public class VersionControl {
 		muhammadButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				// classMethods.<student>Method(textField);
+				classMethods.muhammadMethod(textField);
 			}
 		});
 		muhammadButton.setFont(new Font("Tahoma", Font.BOLD, 11));
