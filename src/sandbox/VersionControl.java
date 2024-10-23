@@ -127,7 +127,7 @@ public class VersionControl {
 		sofiaButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				// classMethods.<student>Method(textField);
+				classMethods.sofiaMethod(textField);
 				
 			}
 		});
