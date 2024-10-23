@@ -24,7 +24,14 @@ public class Methods {
 		jtf.setText(hardCodedMessage);
 	}
 	
-	
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+	// PARAMETERS - JTextField jtf
+	// RETURN TYPE - void
+	public static void ethanMethod(JTextField jtf)  {
+			
+		String hardCodedMessage = "Ethan";
+		jtf.setText(hardCodedMessage);
+	}
 	
 	
 }
