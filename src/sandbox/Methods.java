@@ -33,7 +33,7 @@ public class Methods {
 	// RETURN TYPE - void
 	public static void marianMethod(JTextField jtf)  {
 		
-		String hardCodedMessage = "Marian message";
+		String hardCodedMessage = "Marian message.";
 		jtf.setText(hardCodedMessage);
 	}
 	
