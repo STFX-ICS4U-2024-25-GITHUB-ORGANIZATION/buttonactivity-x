@@ -281,7 +281,7 @@ public class VersionControl {
 		athavanButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				// classMethods.<student>Method(textField);
+				classMethods.athavanMethod(textField);
 			}
 		});
 		athavanButton.setFont(new Font("Tahoma", Font.BOLD, 11));
