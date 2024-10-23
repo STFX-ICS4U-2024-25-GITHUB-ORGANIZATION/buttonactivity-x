@@ -25,6 +25,10 @@ public class Methods {
 	}
 	
 	
+	public static void AnnaMethod(JTextField jtf)  {
+		
+		String hardCodedMessage = "Anna";
+		jtf.setText(hardCodedMessage);
 	
-	
+}
 }
