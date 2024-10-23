@@ -94,9 +94,7 @@ public class VersionControl {
 		marianButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				// classMethods.<student>Method(textField);
-				
-				
+				 classMethods.marianMethod(textField);
 				
 			}
 		});
