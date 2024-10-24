@@ -151,6 +151,9 @@ public class VersionControl {
 		JButton liamButton = new JButton("Liam");
 		liamButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				
+			classMethods.LiamMethod(textField);/////
+
 
 				// classMethods.<student>Method(textField);
 			}
@@ -162,6 +165,9 @@ public class VersionControl {
 		JButton davidButton = new JButton("David");
 		davidButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				
+			 //classMethods.<student>Method(textField);
+
 
 				// classMethods.<student>Method(textField);
 			}
