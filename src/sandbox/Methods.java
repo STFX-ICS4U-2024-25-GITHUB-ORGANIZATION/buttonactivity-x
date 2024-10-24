@@ -44,6 +44,13 @@ public class Methods {
 		jtf.setText(hardCodedMessage);
 	}
 	
-	
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+	// PARAMETERS - JTextField jtf
+	// RETURN TYPE - void
+	public static void keslerMethod(JTextField jtf)  {
+		
+		String hardCodedMessage = "Kesslla";
+		jtf.setText(hardCodedMessage);
+	}
 	
 }

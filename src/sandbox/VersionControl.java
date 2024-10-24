@@ -61,7 +61,7 @@ public class VersionControl {
 		keslerButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				// classMethods.<student>Method(textField);
+				classMethods.keslerMethod(textField);
 			}
 		});
 		keslerButton.setFont(new Font("Tahoma", Font.BOLD, 11));
