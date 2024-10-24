@@ -76,6 +76,8 @@ public class Methods {
 		String hardCodedMessage = "Liam is making me nervous!!!";
 		jtf.setText(hardCodedMessage);
 	}
+	
+	
 
 	
 
