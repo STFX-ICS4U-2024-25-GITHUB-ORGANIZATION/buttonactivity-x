@@ -18,7 +18,7 @@ public class VersionControl {
 	private JTextField textField;
 	private Methods classMethods = new Methods();
 
-
+//
 	/**
 	 * Launch the application.
 	 */
@@ -299,8 +299,8 @@ public class VersionControl {
 		JButton athavanButton = new JButton("Athavan");
 		athavanButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-
-				// classMethods.<student>Method(textField);
+				
+				classMethods.athavanMethod(textField);
 			}
 		});
 		athavanButton.setFont(new Font("Tahoma", Font.BOLD, 11));
