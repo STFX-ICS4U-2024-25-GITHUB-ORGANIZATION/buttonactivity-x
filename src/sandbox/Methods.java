@@ -12,6 +12,7 @@ public class Methods {
 		
 		String hardCodedMessage = "";
 		jtf.setText(hardCodedMessage);
+		
 	}
 	*/
 	
@@ -44,6 +45,15 @@ public class Methods {
 		jtf.setText(hardCodedMessage);
 	}
 	
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+		// PARAMETERS - JTextField jtf
+		// RETURN TYPE - void
+		public static void bryanMethod(JTextField jtf)  {
+			
+			String hardCodedMessage = "Bryan";
+			jtf.setText(hardCodedMessage);
+			
+		}
 	
 	
 }
