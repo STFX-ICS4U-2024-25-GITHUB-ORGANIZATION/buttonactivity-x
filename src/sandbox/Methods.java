@@ -27,6 +27,7 @@ public class Methods {
 	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
 	// PARAMETERS - JTextField jtf
 	// RETURN TYPE - void
+
 	public static void monaMethod(JTextField jtf)  {
 		
 		String hardCodedMessage = "Mona";
@@ -52,7 +53,8 @@ public class Methods {
 		String hardCodedMessage = "Cameron.";
 		jtf.setText(hardCodedMessage);
 	}
-	
+
+		
 	
 	
 }
