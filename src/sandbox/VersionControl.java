@@ -159,7 +159,7 @@ public class VersionControl {
 			classMethods.LiamMethod(textField);/////
 
 
-				// classMethods.<student>Method(textField);
+				// classMethods.LiamMethod(textField);
 			}
 		});
 		liamButton.setFont(new Font("Tahoma", Font.BOLD, 11));
