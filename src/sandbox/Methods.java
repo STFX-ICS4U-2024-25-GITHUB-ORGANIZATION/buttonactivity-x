@@ -122,6 +122,8 @@ public class Methods {
 			
 		String hardCodedMessage = "Hello!";
 		jtf.setText(hardCodedMessage);
+		
+	}
 
 	public static void hadiMethod(JTextField jtf)  {
 		
