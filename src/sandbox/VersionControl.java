@@ -112,7 +112,6 @@ public class VersionControl {
 		joshButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
-				// classMethods.<student>Method(textField);
 			}
 		});
 		joshButton.setFont(new Font("Tahoma", Font.BOLD, 11));
@@ -134,7 +133,11 @@ public class VersionControl {
 		sofiaButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
+
 				// classMethods.<student>Method(textField);
+				
+				classMethods.UdaiMethod(textField);
+
 			}
 		});
 		sofiaButton.setFont(new Font("Tahoma", Font.BOLD, 11));
@@ -168,6 +171,8 @@ public class VersionControl {
 			public void actionPerformed(ActionEvent e) {
 
 				// classMethods.<student>Method(textField);
+				
+				classMethods.CameronMethod(textField);
 			}
 		});
 		cameronButton.setFont(new Font("Tahoma", Font.BOLD, 11));
@@ -268,6 +273,9 @@ public class VersionControl {
 			public void actionPerformed(ActionEvent e) {
 
 				// classMethods.<student>Method(textField);
+
+				
+				classMethods.zackMethod(textField);
 			}
 		});
 		zackButton.setFont(new Font("Tahoma", Font.BOLD, 11));
