@@ -296,8 +296,13 @@ public class VersionControl {
 		JButton athavanButton = new JButton("Athavan");
 		athavanButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+<<<<<<< HEAD
 
 				// classMethods.<student>Method(textField);
+=======
+				
+				classMethods.athavanMethod(textField);
+>>>>>>> branch 'AthavanBranch' of https://github.com/STFX-ICS4U-2024-25-GITHUB-ORGANIZATION/buttonactivity-x.git
 			}
 		});
 		athavanButton.setFont(new Font("Tahoma", Font.BOLD, 11));

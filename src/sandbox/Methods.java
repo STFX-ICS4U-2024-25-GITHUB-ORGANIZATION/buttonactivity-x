@@ -34,6 +34,7 @@ public class Methods {
 		jtf.setText(hardCodedMessage);
 	}
 	
+<<<<<<< HEAD
 
 	public static void monaMethod(JTextField jtf)  {
 		
@@ -47,6 +48,18 @@ public class Methods {
 		jtf.setText(hardCodedMessage);
 	}
 	//
+=======
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+	// PARAMETERS - JTextField jtf
+	// RETURN TYPE - void
+	public static void athavanMethod(JTextField jtf)  {
+		
+		String hardCodedMessage = "chaewon";
+		jtf.setText(hardCodedMessage);
+	}
+	
+	
+>>>>>>> branch 'AthavanBranch' of https://github.com/STFX-ICS4U-2024-25-GITHUB-ORGANIZATION/buttonactivity-x.git
 	
 
 	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
