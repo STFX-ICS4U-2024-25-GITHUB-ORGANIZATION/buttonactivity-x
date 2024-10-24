@@ -93,10 +93,23 @@ public class Methods {
 		String hardCodedMessage = "Liam is making me nervous!!!";
 		jtf.setText(hardCodedMessage);
 	}
-
 	
+	public static void hadiMethod(JTextField jtf)  {
+		
+		String hardCodedMessage = "neverlose.cc mogs";//
+		jtf.setText(hardCodedMessage);
+	}
+
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+	// PARAMETERS - JTextField jtf
+	// RETURN TYPE - void
+	public static void rowanMethod(JTextField jtf)  {
+			
+		String hardCodedMessage = "i paused my game to write this.";
+		jtf.setText(hardCodedMessage);
+
+	}
 
 	
 
 }
-

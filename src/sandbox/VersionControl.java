@@ -112,6 +112,10 @@ public class VersionControl {
 		joshButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
+				
+				 classMethods.joshMethod(textField);//
+
+
 			}
 		});
 		joshButton.setFont(new Font("Tahoma", Font.BOLD, 11));
@@ -237,9 +241,8 @@ public class VersionControl {
 
 		JButton hadiButton = new JButton("Hadi");
 		hadiButton.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-
-				// classMethods.<student>Method(textField);
+			public void actionPerformed(ActionEvent e) {				
+				classMethods.hadiMethod(textField);
 			}
 		});
 		hadiButton.setFont(new Font("Tahoma", Font.BOLD, 11));
@@ -250,7 +253,7 @@ public class VersionControl {
 		rowanButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
-				// classMethods.<student>Method(textField);
+				classMethods.rowanMethod(textField);
 			}
 		});
 		rowanButton.setFont(new Font("Tahoma", Font.BOLD, 11));
