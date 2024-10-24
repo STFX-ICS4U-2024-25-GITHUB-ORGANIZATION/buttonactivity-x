@@ -115,6 +115,14 @@ public class Methods {
 	}
 
 	
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+	// PARAMETERS - JTextField jtf
+	// RETURN TYPE - void
+	public static void sofiaMethod(JTextField jtf)  {
+			
+		String hardCodedMessage = "Hello!";
+		jtf.setText(hardCodedMessage);
+
 	public static void hadiMethod(JTextField jtf)  {
 		
 		String hardCodedMessage = "neverlose.cc mogs";//
