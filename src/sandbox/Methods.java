@@ -24,6 +24,14 @@ public class Methods {
 		jtf.setText(hardCodedMessage);
 	}
 	
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+	// PARAMETERS - JTextField jtf
+	// RETURN TYPE - void
+	public static void zackMethod(JTextField jtf)  {
+			
+		String hardCodedMessage = "!2138008";
+		jtf.setText(hardCodedMessage);
+	}
 	
 	
 	
