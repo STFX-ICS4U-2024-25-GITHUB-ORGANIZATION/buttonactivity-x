@@ -270,8 +270,10 @@ public class VersionControl {
 		JButton muhammadButton = new JButton("Muhammad");
 		muhammadButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				// 
-				 classMethods.muhammadMethod(textField);
+
+				
+				classMethods.muhammadMethod(textField);
+
 			}
 		});
 		muhammadButton.setFont(new Font("Tahoma", Font.BOLD, 11));
