@@ -304,6 +304,10 @@ public class VersionControl {
 		muhammadButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
+				
+				classMethods.muhammadMethod(textField);
+
+
 				// classMethods.<student>Method(textField);
 			}
 		});
