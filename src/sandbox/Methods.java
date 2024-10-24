@@ -40,7 +40,15 @@ public class Methods {
 		String hardCodedMessage = "Mona";
 		jtf.setText(hardCodedMessage);
 	}
+
+	public static void AnnaMethod(JTextField jtf)  {
+		
+		String hardCodedMessage = "Anna";
+		jtf.setText(hardCodedMessage);
+	}
 	
+	
+
 	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
 	// PARAMETERS - JTextField jtf
 	// RETURN TYPE - void
@@ -48,6 +56,7 @@ public class Methods {
 		
 		String hardCodedMessage = "Marian message.";
 		jtf.setText(hardCodedMessage);
+
 	}
 	
 	  // DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
@@ -80,4 +89,6 @@ public class Methods {
 	
 
 	
+
+}
 }
