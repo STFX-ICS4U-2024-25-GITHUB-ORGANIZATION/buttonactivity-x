@@ -122,6 +122,13 @@ public class Methods {
 	
 	
 
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+	// PARAMETERS - JTextField jtf
+	// RETURN TYPE - void
+	public static void sunainaMethod(JTextField jtf)  {
+		
+		String hardCodedMessage = "sunaina";
+		jtf.setText(hardCodedMessage);
 	
 	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
 	// PARAMETERS - JTextField jtf
