@@ -129,11 +129,7 @@ public class VersionControl {
 		JButton udaiButton = new JButton("Udai");
 		udaiButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-<<<<<<< HEAD
-
-=======
 				
->>>>>>> branch 'Udai' of https://github.com/STFX-ICS4U-2024-25-GITHUB-ORGANIZATION/buttonactivity-x.git
 				classMethods.UdaiMethod(textField);
 			}
 		});
