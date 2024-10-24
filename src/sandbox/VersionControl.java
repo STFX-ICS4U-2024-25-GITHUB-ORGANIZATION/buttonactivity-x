@@ -18,7 +18,7 @@ public class VersionControl {
 	private JTextField textField;
 	private Methods classMethods = new Methods();
 
-
+//
 	/**
 	 * Launch the application.
 	 */
@@ -63,7 +63,7 @@ public class VersionControl {
 		keslerButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
-				// classMethods.<student>Method(textField);
+				classMethods.keslerMethod(textField);
 			}
 		});
 		keslerButton.setFont(new Font("Tahoma", Font.BOLD, 11));
@@ -112,6 +112,10 @@ public class VersionControl {
 		joshButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
+				
+				 classMethods.joshMethod(textField);//
+
+
 			}
 		});
 		joshButton.setFont(new Font("Tahoma", Font.BOLD, 11));
@@ -133,6 +137,10 @@ public class VersionControl {
 		sofiaButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
+				
+				 classMethods.sofiaMethod(textField);
+
+
 
 				// classMethods.<student>Method(textField);
 				
@@ -147,8 +155,11 @@ public class VersionControl {
 		JButton liamButton = new JButton("Liam");
 		liamButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				
+			classMethods.LiamMethod(textField);/////
 
-				// classMethods.<student>Method(textField);
+
+				// classMethods.LiamMethod(textField);
 			}
 		});
 		liamButton.setFont(new Font("Tahoma", Font.BOLD, 11));
@@ -158,6 +169,9 @@ public class VersionControl {
 		JButton davidButton = new JButton("David");
 		davidButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				
+			 //classMethods.<student>Method(textField);
+
 
 				// classMethods.<student>Method(textField);
 			}
@@ -217,7 +231,12 @@ public class VersionControl {
 		bryanButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
+				
+				 classMethods.bryanMethod(textField);
+
+
 				// classMethods.<student>Method(textField);
+
 			}
 		});
 		bryanButton.setFont(new Font("Tahoma", Font.BOLD, 11));
@@ -228,7 +247,7 @@ public class VersionControl {
 		coleButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
-				// classMethods.<student>Method(textField);
+				classMethods.coleMethod(textField);
 			}
 		});
 		coleButton.setFont(new Font("Tahoma", Font.BOLD, 11));
@@ -237,9 +256,8 @@ public class VersionControl {
 
 		JButton hadiButton = new JButton("Hadi");
 		hadiButton.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-
-				// classMethods.<student>Method(textField);
+			public void actionPerformed(ActionEvent e) {				
+				classMethods.hadiMethod(textField);
 			}
 		});
 		hadiButton.setFont(new Font("Tahoma", Font.BOLD, 11));
@@ -250,7 +268,7 @@ public class VersionControl {
 		rowanButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
-				// classMethods.<student>Method(textField);
+				classMethods.rowanMethod(textField);
 			}
 		});
 		rowanButton.setFont(new Font("Tahoma", Font.BOLD, 11));
@@ -261,7 +279,10 @@ public class VersionControl {
 		mohammadButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
-				// classMethods.<student>Method(textField);
+				
+				 classMethods.mohammadSharkatly(textField);
+
+			
 			}
 		});
 		mohammadButton.setFont(new Font("Tahoma", Font.BOLD, 11));
@@ -286,6 +307,10 @@ public class VersionControl {
 		muhammadButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
+				
+				classMethods.muhammadMethod(textField);
+
+
 				// classMethods.<student>Method(textField);
 			}
 		});
@@ -296,8 +321,8 @@ public class VersionControl {
 		JButton athavanButton = new JButton("Athavan");
 		athavanButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-
-				// classMethods.<student>Method(textField);
+				
+				classMethods.athavanMethod(textField);
 			}
 		});
 		athavanButton.setFont(new Font("Tahoma", Font.BOLD, 11));

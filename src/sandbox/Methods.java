@@ -4,16 +4,17 @@ import javax.swing.JTextField;
 
 public class Methods {
 
-	/*
+	
 	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
 	// PARAMETERS - JTextField jtf
 	// RETURN TYPE - void
-	public static void <student>Method(JTextField jtf)  {
+	public static void muhammadMethod(JTextField jtf)  {
 		
-		String hardCodedMessage = "";
+		String hardCodedMessage = "lilonick257 <3";
 		jtf.setText(hardCodedMessage);
+		
 	}
-	*/
+	
 	
 	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
 	// PARAMETERS - JTextField jtf
@@ -27,6 +28,14 @@ public class Methods {
 	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
 	// PARAMETERS - JTextField jtf
 	// RETURN TYPE - void
+ 
+	public static void LiamMethod(JTextField jtf)  {
+		
+		String hardCodedMessage = "Udai stop looking at me whith those eyes!";
+		jtf.setText(hardCodedMessage);////
+	
+	}
+
 
 	public static void zackMethod(JTextField jtf)  {
 			
@@ -46,7 +55,15 @@ public class Methods {
 		String hardCodedMessage = "Anna";
 		jtf.setText(hardCodedMessage);
 	}
-	
+	//
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+	// PARAMETERS - JTextField jtf
+	// RETURN TYPE - void
+	public static void athavanMethod(JTextField jtf)  {
+		
+		String hardCodedMessage = "chaewon";
+		jtf.setText(hardCodedMessage);
+	}
 	
 
 	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
@@ -59,6 +76,17 @@ public class Methods {
 
 	}
 	
+
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+		// PARAMETERS - JTextField jtf
+		// RETURN TYPE - void
+		public static void bryanMethod(JTextField jtf)  {
+			
+			String hardCodedMessage = "Bryan";
+			jtf.setText(hardCodedMessage);
+			
+		}
+
 	  // DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
 		// PARAMETERS - JTextField jtf
 		// RETURN TYPE - void
@@ -85,6 +113,14 @@ public class Methods {
 		String hardCodedMessage = "Liam is making me nervous!!!";
 		jtf.setText(hardCodedMessage);
 	}
+	
+	public static void mohammadSharkatly(JTextField jtf)  {
+		
+		String hardCodedMessage = "Magnus Carlsen";
+		jtf.setText(hardCodedMessage);
+	}
+	
+	
 
 	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
 	// PARAMETERS - JTextField jtf
@@ -94,8 +130,57 @@ public class Methods {
 		String hardCodedMessage = "sunaina";
 		jtf.setText(hardCodedMessage);
 	
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+	// PARAMETERS - JTextField jtf
+	// RETURN TYPE - void
+	public static void sofiaMethod(JTextField jtf)  {
+			
+		String hardCodedMessage = "Hello!";
+		jtf.setText(hardCodedMessage);
+		
+	}
 
+	public static void hadiMethod(JTextField jtf)  {
+		
+		String hardCodedMessage = "neverlose.cc mogs";//
+		jtf.setText(hardCodedMessage);
+	}
+
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+	// PARAMETERS - JTextField jtf
+	// RETURN TYPE - void
+	public static void rowanMethod(JTextField jtf)  {
+			
+		String hardCodedMessage = "i paused my game to write this.";
+		jtf.setText(hardCodedMessage);
+
+	}
+	
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+	// PARAMETERS - JTextField jtf
+	// RETURN TYPE - void
+	public static void coleMethod(JTextField jtf)  {
+			
+		String hardCodedMessage = "kesler is freshco's #1 worker";
+		jtf.setText(hardCodedMessage);
+
+	}
+	
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+	// PARAMETERS - JTextField jtf
+	// RETURN TYPE - void
+	public static void muhammadMethod(JTextField jtf)  {
+		
+		String hardCodedMessage = "lilonick257 <3";
+		jtf.setText(hardCodedMessage);
+	}
 	
 
-}
+	public static void keslerMethod(JTextField jtf)  {
+			
+		String hardCodedMessage = "Kesslla";
+		jtf.setText(hardCodedMessage);
+
+	}
+	
 }
