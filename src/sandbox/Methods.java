@@ -182,5 +182,4 @@ public class Methods {
 		jtf.setText(hardCodedMessage);
 
 	}
-	
 }
