@@ -221,7 +221,12 @@ public class VersionControl {
 		bryanButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
+				
+				 classMethods.bryanMethod(textField);
+
+
 				// classMethods.<student>Method(textField);
+
 			}
 		});
 		bryanButton.setFont(new Font("Tahoma", Font.BOLD, 11));
