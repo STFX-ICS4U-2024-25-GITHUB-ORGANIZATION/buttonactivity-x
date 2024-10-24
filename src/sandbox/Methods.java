@@ -44,6 +44,10 @@ public class Methods {
 		jtf.setText(hardCodedMessage);
 	}
 	
-	
+	public static void AnnaMethod(JTextField jtf)  {
+		
+		String hardCodedMessage = "Anna";
+		jtf.setText(hardCodedMessage);
+	}
 	
 }
