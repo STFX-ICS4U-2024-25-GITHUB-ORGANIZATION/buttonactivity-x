@@ -52,7 +52,7 @@ public class VersionControl {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
-		JLabel lblIcsuVersionControl = new JLabel("ICS3U Version Control");
+		JLabel lblIcsuVersionControl = new JLabel("ICS4U Version Control");
 		lblIcsuVersionControl.setFont(new Font("Tahoma", Font.BOLD, 18));
 		lblIcsuVersionControl.setBounds(204, 33, 234, 33);
 		frame.getContentPane().add(lblIcsuVersionControl);
