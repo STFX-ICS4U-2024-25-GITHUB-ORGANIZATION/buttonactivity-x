@@ -33,8 +33,11 @@ public class Methods {
 		jtf.setText(hardCodedMessage);
 	}
 	
-	
-	
+	public static void monaMethod(JTextField jtf)  {
+		
+		String hardCodedMessage = "Mona";
+		jtf.setText(hardCodedMessage);
+	}
 	
 	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
 	// PARAMETERS - JTextField jtf
