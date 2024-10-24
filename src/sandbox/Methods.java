@@ -44,6 +44,15 @@ public class Methods {
 		jtf.setText(hardCodedMessage);
 	}
 	
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+	// PARAMETERS - JTextField jtf
+	// RETURN TYPE - void
+	public static void CameronMethod(JTextField jtf)  {
+		
+		String hardCodedMessage = "Cameron.";
+		jtf.setText(hardCodedMessage);
+	}
+	
 	
 	
 }
