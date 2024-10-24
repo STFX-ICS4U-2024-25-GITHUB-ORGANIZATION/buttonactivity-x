@@ -44,7 +44,14 @@ public class Methods {
 		jtf.setText(hardCodedMessage);
 	}
 	
-	
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+	// PARAMETERS - JTextField jtf
+	// RETURN TYPE - void
+	public static void sofiaMethod(JTextField jtf)  {
+			
+		String hardCodedMessage = "Hello!";
+		jtf.setText(hardCodedMessage);
+	}
 	
 	
 }
