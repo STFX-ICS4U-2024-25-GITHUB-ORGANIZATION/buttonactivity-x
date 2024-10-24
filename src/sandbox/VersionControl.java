@@ -51,16 +51,13 @@ public class VersionControl {
 		frame.setBounds(100, 100, 595, 537);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
-<<<<<<< HEAD
 		
 		JLabel lblIcsuVersionControl = new JLabel("ICS4U Version Control");
-=======
 
-		JLabel lblIcsuVersionControl = new JLabel("ICS3U Version Control");
->>>>>>> branch 'Anna' of https://github.com/STFX-ICS4U-2024-25-GITHUB-ORGANIZATION/buttonactivity-x.git
-		lblIcsuVersionControl.setFont(new Font("Tahoma", Font.BOLD, 18));
-		lblIcsuVersionControl.setBounds(204, 33, 234, 33);
-		frame.getContentPane().add(lblIcsuVersionControl);
+		JLabel lblIcsuVersionControl1 = new JLabel("ICS3U Version Control");
+		lblIcsuVersionControl1.setFont(new Font("Tahoma", Font.BOLD, 18));
+		lblIcsuVersionControl1.setBounds(204, 33, 234, 33);
+		frame.getContentPane().add(lblIcsuVersionControl1);
 
 		JButton keslerButton = new JButton("Kesler");
 		keslerButton.addActionListener(new ActionListener() {
@@ -87,15 +84,12 @@ public class VersionControl {
 		JButton monaButton = new JButton("Mona");
 		monaButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-<<<<<<< HEAD
+
 				
 			 classMethods.monaMethod(textField);
-=======
 
-				// classMethods.<student>Method(textField);
->>>>>>> branch 'Anna' of https://github.com/STFX-ICS4U-2024-25-GITHUB-ORGANIZATION/buttonactivity-x.git
-			}
-		});
+		}});
+		
 		monaButton.setFont(new Font("Tahoma", Font.BOLD, 11));
 		monaButton.setBounds(70, 192, 89, 23);
 		frame.getContentPane().add(monaButton);
@@ -103,14 +97,11 @@ public class VersionControl {
 		JButton marianButton = new JButton("Marian");
 		marianButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-<<<<<<< HEAD
+
 				
 				 classMethods.marianMethod(textField);
 				
-=======
 
-				// classMethods.<student>Method(textField);
->>>>>>> branch 'Anna' of https://github.com/STFX-ICS4U-2024-25-GITHUB-ORGANIZATION/buttonactivity-x.git
 			}
 		});
 		marianButton.setFont(new Font("Tahoma", Font.BOLD, 11));
@@ -197,11 +188,8 @@ public class VersionControl {
 		JButton annaButton = new JButton("Anna");
 		annaButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-<<<<<<< HEAD
-				
-=======
 
->>>>>>> branch 'Anna' of https://github.com/STFX-ICS4U-2024-25-GITHUB-ORGANIZATION/buttonactivity-x.git
+
 				classMethods.AnnaMethod(textField);
 			}
 		});
@@ -340,5 +328,6 @@ public class VersionControl {
 		frame.getContentPane().add(clearButton);
 
 	}
-
 }
+
+

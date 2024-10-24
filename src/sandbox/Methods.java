@@ -37,8 +37,8 @@ public class Methods {
 		
 		String hardCodedMessage = "Anna";
 		jtf.setText(hardCodedMessage);
+	}
 	
-<<<<<<< HEAD
 	
 	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
 	// PARAMETERS - JTextField jtf
@@ -47,15 +47,7 @@ public class Methods {
 		
 		String hardCodedMessage = "Marian message.";
 		jtf.setText(hardCodedMessage);
-	}
 	
-	public static void AnnaMethod(JTextField jtf)  {
-		
-		String hardCodedMessage = "Anna";
-		jtf.setText(hardCodedMessage);
-	}
-	
-=======
+
 }
->>>>>>> branch 'Anna' of https://github.com/STFX-ICS4U-2024-25-GITHUB-ORGANIZATION/buttonactivity-x.git
 }
