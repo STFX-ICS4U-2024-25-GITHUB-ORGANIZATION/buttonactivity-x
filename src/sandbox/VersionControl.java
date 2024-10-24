@@ -128,7 +128,7 @@ public class VersionControl {
 		sofiaButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				// classMethods.<student>Method(textField);
+				classMethods.UdaiMethod(textField);
 			}
 		});
 		sofiaButton.setFont(new Font("Tahoma", Font.BOLD, 11));
@@ -260,7 +260,7 @@ public class VersionControl {
 		zackButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				// classMethods.<student>Method(textField);
+				classMethods.zackMethod(textField);
 			}
 		});
 		zackButton.setFont(new Font("Tahoma", Font.BOLD, 11));
