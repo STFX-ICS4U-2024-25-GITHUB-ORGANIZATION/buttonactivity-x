@@ -138,7 +138,7 @@ public class VersionControl {
 		liamButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-			classMethods.LiamMethod(textField);
+			classMethods.LiamMethod(textField);////
 			}
 		});
 		liamButton.setFont(new Font("Tahoma", Font.BOLD, 11));
