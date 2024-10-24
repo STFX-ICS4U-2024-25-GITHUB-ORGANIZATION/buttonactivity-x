@@ -18,7 +18,7 @@ public class VersionControl {
 	private JTextField textField;
 	private Methods classMethods = new Methods();
 
-
+//
 	/**
 	 * Launch the application.
 	 */
