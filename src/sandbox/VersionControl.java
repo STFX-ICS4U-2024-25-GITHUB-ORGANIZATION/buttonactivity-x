@@ -17,7 +17,7 @@ public class VersionControl {
 	private JFrame frame;
 	private JTextField textField;
 	private Methods classMethods = new Methods();
-//
+
 
 	/**
 	 * Launch the application.
