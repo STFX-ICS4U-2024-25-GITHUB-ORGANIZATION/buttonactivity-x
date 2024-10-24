@@ -237,7 +237,7 @@ public class VersionControl {
 		coleButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
-				// classMethods.<student>Method(textField);
+				classMethods.coleMethod(textField);
 			}
 		});
 		coleButton.setFont(new Font("Tahoma", Font.BOLD, 11));

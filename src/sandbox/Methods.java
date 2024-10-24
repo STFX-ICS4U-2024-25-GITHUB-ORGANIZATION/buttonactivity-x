@@ -122,7 +122,16 @@ public class Methods {
 		jtf.setText(hardCodedMessage);
 
 	}
+	
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+	// PARAMETERS - JTextField jtf
+	// RETURN TYPE - void
+	public static void coleMethod(JTextField jtf)  {
+			
+		String hardCodedMessage = "kesler is freshco's #1 worker";
+		jtf.setText(hardCodedMessage);
 
+	}
 	
 
 }
