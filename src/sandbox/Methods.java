@@ -25,6 +25,7 @@ public class Methods {
 		jtf.setText(hardCodedMessage);
 	}
 	
+<<<<<<< HEAD
 	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
 	// PARAMETERS - JTextField jtf
 	// RETURN TYPE - void
@@ -33,6 +34,17 @@ public class Methods {
 		
 		String hardCodedMessage = "Udai stop looking at me whith those eyes!";
 		jtf.setText(hardCodedMessage);////
+=======
+
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+	// PARAMETERS - JTextField jtf
+	// RETURN TYPE - void
+	public static void UdaiMethod(JTextField jtf)  {
+			
+		String hardCodedMessage = "Liam is Making me Nervous";
+		jtf.setText(hardCodedMessage);
+		}
+>>>>>>> branch 'Udai' of https://github.com/STFX-ICS4U-2024-25-GITHUB-ORGANIZATION/buttonactivity-x.git
 	
 	}
 

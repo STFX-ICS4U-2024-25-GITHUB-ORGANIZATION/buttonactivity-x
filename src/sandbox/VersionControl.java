@@ -99,9 +99,13 @@ public class VersionControl {
 			public void actionPerformed(ActionEvent e) {
 
 				
+<<<<<<< HEAD
 				 classMethods.marianMethod(textField);
 				
 
+=======
+				//// classMethods.<student>Method(textField);
+>>>>>>> branch 'Udai' of https://github.com/STFX-ICS4U-2024-25-GITHUB-ORGANIZATION/buttonactivity-x.git
 			}
 		});
 		marianButton.setFont(new Font("Tahoma", Font.BOLD, 11));
@@ -125,7 +129,11 @@ public class VersionControl {
 		JButton udaiButton = new JButton("Udai");
 		udaiButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+<<<<<<< HEAD
 
+=======
+				
+>>>>>>> branch 'Udai' of https://github.com/STFX-ICS4U-2024-25-GITHUB-ORGANIZATION/buttonactivity-x.git
 				classMethods.UdaiMethod(textField);
 			}
 		});
