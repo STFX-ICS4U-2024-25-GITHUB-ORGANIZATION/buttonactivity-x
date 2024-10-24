@@ -67,6 +67,14 @@ public class Methods {
 		String hardCodedMessage = "Liam is making me nervous!!!";
 		jtf.setText(hardCodedMessage);
 	}
+	
+	public static void mohammadSharkatly(JTextField jtf)  {
+		
+		String hardCodedMessage = "Magnus Carlsen";
+		jtf.setText(hardCodedMessage);
+	}
+	
+	
 
 	
 	
