@@ -91,10 +91,4 @@ public class Methods {
 		String hardCodedMessage = "neverlose.cc mogs";//
 		jtf.setText(hardCodedMessage);
 	}
-
-	
-
-	
-
-}
 }
