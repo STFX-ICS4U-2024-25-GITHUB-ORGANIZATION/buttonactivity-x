@@ -183,4 +183,14 @@ public class Methods {
 
 	}
 	
+	// DESCRIPTION - Displays hard-coded message onto textField passed in as parameter.
+	// PARAMETERS - JTextField jtf
+	// RETURN TYPE - void
+	public static void valentinaMethod(JTextField jtf)  {
+			
+		String hardCodedMessage = "Valentinaaa";
+		jtf.setText(hardCodedMessage);
+
+		}
+	
 }
