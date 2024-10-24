@@ -112,6 +112,10 @@ public class VersionControl {
 		joshButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
+				
+				 classMethods.joshMethod(textField);//
+
+
 			}
 		});
 		joshButton.setFont(new Font("Tahoma", Font.BOLD, 11));
