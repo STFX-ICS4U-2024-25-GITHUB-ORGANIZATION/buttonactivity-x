@@ -85,6 +85,12 @@ public class Methods {
 		String hardCodedMessage = "Liam is making me nervous!!!";
 		jtf.setText(hardCodedMessage);
 	}
+	
+	public static void hadiMethod(JTextField jtf)  {
+		
+		String hardCodedMessage = "neverlose.cc mogs";//
+		jtf.setText(hardCodedMessage);
+	}
 
 	
 
