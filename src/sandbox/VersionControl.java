@@ -197,7 +197,7 @@ public class VersionControl {
 		valentinaButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
-				// classMethods.<student>Method(textField);
+				classMethods.valentinaMethod(textField);
 			}
 		});
 		valentinaButton.setFont(new Font("Tahoma", Font.BOLD, 11));
